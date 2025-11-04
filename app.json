@@ -2,6 +2,7 @@
   "expo": {
     "name": "It's Time",
     "slug": "it-s-time",
+    "owner": "bizarrealec",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,7 +26,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d9264679-9179-45cb-ad81-305833ca11df"
+      }
     }
   }
 }
-
