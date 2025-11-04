@@ -5,13 +5,7 @@
     "owner": "bizarrealec",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/its-time-logo.png.webp",
     "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/images/its-time-logo.png.webp",
-      "resizeMode": "contain",
-      "backgroundColor": "#FF6A00"
-    },
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -23,14 +17,7 @@
       }
     },
     "android": {
-      "package": "com.bizarrealec.itstime",
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/images/its-time-logo.png.webp",
-        "backgroundColor": "#FF6A00"
-      }
-    },
-    "web": {
-      "favicon": "./assets/images/its-time-logo.png.webp"
+      "package": "com.bizarrealec.itstime"
     },
     "extra": {
       "eas": {
