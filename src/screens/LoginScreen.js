@@ -41,33 +41,44 @@ const styles = StyleSheet.create({
   content: {
     flex: 1,
     position: 'relative',
+    zIndex: 1,
   },
   clock: {
     position: 'absolute',
-    // TODO: Adjust positioning to match final_edited.png
-    // Add top, left, width, height values here
+    top: 100,
+    left: 50,
+    width: 150,
+    height: 150,
   },
   monkey: {
     position: 'absolute',
-    // TODO: Adjust positioning to match final_edited.png
-    // Add top, left/right, width, height values here
+    top: 150,
+    right: 30,
+    width: 200,
+    height: 200,
   },
   title: {
     position: 'absolute',
-    // TODO: Adjust positioning to match final_edited.png
-    // Add top, left, width, height values here
-    // Example: { top: 200, left: '50%', marginLeft: -100, width: 200, height: 60 }
+    top: '35%',
+    left: '50%',
+    marginLeft: -100,
+    width: 200,
+    height: 80,
   },
   subtitle: {
     position: 'absolute',
-    // TODO: Adjust positioning to match final_edited.png
-    // Add top, left, width, height values here
-    // Example: { top: 270, left: '50%', marginLeft: -80, width: 160, height: 40 }
+    top: '45%',
+    left: '50%',
+    marginLeft: -120,
+    width: 240,
+    height: 50,
   },
   continueButton: {
     position: 'absolute',
-    // TODO: Adjust positioning to match final_edited.png
-    // Add bottom/top, left, width, height values here
-    // Example: { bottom: 100, left: '50%', marginLeft: -100, width: 200, height: 60 }
+    bottom: 80,
+    left: '50%',
+    marginLeft: -120,
+    width: 240,
+    height: 60,
   },
 });
