@@ -13,7 +13,7 @@ export default function Clock({ style }) {
 
 const styles = StyleSheet.create({
   image: {
-    // Base styles - positioning will be handled by parent via style prop
+    // Ensure image renders with proper dimensions
   },
 });
 

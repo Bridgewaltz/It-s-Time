@@ -27,7 +27,9 @@ export default function ContinueButton({ onPress, style }) {
 
 const styles = StyleSheet.create({
   container: {
-    // Base styles - positioning will be handled by parent via style prop
+    // Container for pressable area
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   pressed: {
     opacity: 0.8,
