@@ -177,3 +177,4 @@ src/
 - Logo should be optimized for different screen sizes
 - Consider accessibility (contrast, text sizes)
 
+
